@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixlr | Broadcast Live Audio</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<style>
+    .nav_links:hover {
+        color: red !important;
+    }
+    .feature_links{
+        color: red !important;
+    }
+</style>
+<body>
+
+    <!-- navbar section -->
+    <nav class="d-lg-flex d-md-flex d-none justify-content-between py-3 px-3">
+        <div class="mixlr-logo pt-3">
+            <img src="./img/svgexport-1.svg" alt="mixlr-logo" width="100">
+        </div>
+        <div class="d-flex gap-5 ">
+            <ul class="list-unstyled d-flex gap-5 pt-3">
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Features</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Listen</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Price</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="./login.html">Log in</a></li>
+            </ul>
+            <button class="btn btn-outline-light text-danger rounded-pill nav_button"><img src="./img/svgexport-2.svg" alt=""> Get started</button>
+        </div>
+    </nav>
+
+    <!-- first section -->
+    <section>
+        <div class="text-center">
+            <h1 class="fw-light">Professional Audio</h1>
+            <strong class="fs-1">Simplified.</strong>
+        </div>
+        <div class="text-center py-5">
+            <button class="btn btn-danger btn-sm rounded-pill py-2 px-3 fw-bold fs-4">Start free Trial</button>
+        </div>
+    </section>
+
+    <!-- caurosel section -->
+    <section class="text-center">
+        <div class="text-center">
+            <div class="d-lg-block d-md-none d-none rounded-pill w-100 bg-light mx-4" role="group" aria-label="Second group">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=" btn btn-dark rounded-pill py-2 w-25">Live Stream</button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="btn btn-dark rounded-pill py-2 w-25">Host</button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="btn btn-dark rounded-pill py-2 w-25">Share</button>
+            </div>
+            <!-- small screen -->
+            <div class="d-lg-none d-md-none d-sm-block btn-group rounded-pill w-100 bg-light" role="group" aria-label="Second group">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=" btn btn-dark rounded-pill py-2 w-25">Live Stream</button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="btn btn-dark rounded-pill py-2 w-25">Host</button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="btn btn-dark rounded-pill py-2 w-25">Share</button>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide mt-4 px-5 mx-5">
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/carousel live stream.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/caruosel host.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/carousel share.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators pt-5 mt-5">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="bg-danger"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-danger"></button>
+                  </div>
+              </div>
+            
+        </div>
+    </section>
+
+    <!-- avaliable section for large and medium screen -->
+    <section class="text-center d-lg-block d-md-block d-none">
+        <div>
+            <p class="fs-4">Avaliable on</p>
+        </div>
+        <div class="d-flex gap-5 justify-content-center py-3">
+            <img class="px-3" src="./img/svgexport-10.svg" alt="">
+            <img class="px-3" src="./img/svgexport-11.svg" alt="">
+            <img class="px-3" src="./img/svgexport-12.svg" alt="">
+            <img class="px-3" src="./img/svgexport-13.svg" alt="">
+        </div>
+        <div class="py-5">
+            <h3 class="fs-1">The simplest way to get audio </h3>
+            <h3 class="fs-1">to your audience.</h3>
+        </div>
+    </section>
+
+    <!-- for small screen -->
+    <section class="text-center d-block d-md-none d-lg-none w-100 px-5">
+        <div>
+            <p class="fs-4">Avaliable on</p>
+        </div>
+        <div class="d-flex gap-3 justify-content-center py-3">
+            <img class="px-3" src="./img/svgexport-10.svg" alt="">
+            <img class="px-3" src="./img/svgexport-11.svg" alt="">
+            <img class="px-3" src="./img/svgexport-12.svg" alt="">
+            <img class="px-3" src="./img/svgexport-13.svg" alt="">
+        </div>
+        <div class="py-5 text-center">
+            <h3 class="fs-1">The simplest way to get audio to your audience.</h3>
+        </div>
+    </section>
+
+    <!-- manifestos section big screen -->
+    <section class="d-none d-lg-block d-md-block">
+        <div id="Manifestocarousel" class="carousel slide mt-4 px-5 mx-5">
+                
+        <div class="carousel-inner p-5 m-5">
+            <div class="carousel-item active">
+                <img src="./img/manifesto1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/manifesto2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/manifesto3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Manifestocarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Manifestocarousel"                 data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Manifestocarousel" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Manifestocarousel" data-bs-slide-to="1" aria-label="Slide 2" class="bg-danger"></button>
+            <button type="button" data-bs-target="#Manifestocarousel" data-bs-slide-to="2" aria-label="Slide 3" class="bg-danger"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- manifesto for small screen -->
+    <section class="d-lg-none d-sm-block d-md-none">
+        <div id="Manifestocarouselsmall" class="carousel slide mt-4 px-2">
+                
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="./img/manifesto1.png" class="d-block" width="380" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/manifesto2.png" class="d-block" width="380" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/manifesto3.png" class="d-block" width="380" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Manifestocarouselsmall" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Manifestocarouselsmall"                 data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Manifestocarouselsmall" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Manifestocarouselsmall" data-bs-slide-to="1" aria-label="Slide 2" class="bg-danger"></button>
+            <button type="button" data-bs-target="#Manifestocarouselsmall" data-bs-slide-to="2" aria-label="Slide 3" class="bg-danger"></button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- following section for large screen -->
+    <section class="d-lg-block d-md-block d-none">
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="w-25 mx-5">
+                <h1>A Complete Solution</h1>
+                <p>We're a comprehensive one-stop-shop for all audio needs - from live streaming and hosting to beautiful, custom players, apps and websites.</p>
+            </div>
+            <div>
+                <img src="./img/img1.jpg" width="350" alt="">
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class=" mx-5">
+                <img src="./img/img2.jpg" width="350" alt="">
+            </div>
+            <div class="w-25">
+                <h1>Quality Sound, User-Friendly Tools</h1>
+                <p>Our user-friendly tools simplify the production of professional-grade audio, making it accessible for everyone.</p>
+                
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="w-25 mx-5">
+                <h1>Tailor Your Audio Presence</h1>
+                <p>Our advanced customization options allow creators to maintain and express their brand identity.</p>
+            </div>
+            <div>
+                <img src="./img/img3.jpg" width="350" alt="">
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="mx-5">
+                <img src="./img/img4.webp" width="350" alt="">
+            </div>
+            <div class="w-25">
+                <h1>Audio for Beginners to Pros</h1>
+                <p>We cater for all skill levels, offering everything from plug-and-play to account-managed white-labeled solutions.</p>
+                
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="w-25">
+                <h1>A Decade of Audio Expertise</h1>
+                <p>We've been dedicated exclusively to audio for over 12 years, positioning us as industry experts.</p>
+            </div>
+            <div>
+                <img src="./img/img5.webp" width="350" alt="">
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="mx-5">
+                <img src="./img/img6.jpg" width="350" alt="">
+            </div>
+            <div class="w-25">
+                <h1>Create and Listen Anywhere, Effortlessly</h1>
+                <p>Mixlr is crafted for flexibility and ease of use on the go, ensuring that both creators and listeners enjoy a seamless audio experience, no matter where they are.</p>
+                
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="w-25 mx-5">
+                <h1>Your content, your rules</h1>
+                <p>We champion full creative control for audio creators, offering extensive personalization, privacy options, and a commitment to ad-free content.</p>
+            </div>
+            <div>
+                <img src="./img/img7.jpg" width="350" alt="">
+            </div>
+        </div>
+        <div class="d-flex ms-5 ps-5 gap-5">
+            <div class="mx-5">
+                <img src="./img/img8.jpg" width="350" alt="">
+                
+            </div>
+            <div class="w-25">
+                <h1>Support That Resonates</h1>
+                <p>First-class support at every step, from setup inquiries to specialized assistance for live events.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- for small screen -->
+    <section class="d-block d-lg-none d-md-none ms-4  text-center">
+        <div class="mx-5">
+            <h1>A Complete Solution</h1>
+            <p>We're a comprehensive one-stop-shop for all audio needs - from live streaming and hosting to beautiful, custom players, apps and websites.</p>
+        </div>
+        <div>
+            <img src="./img/img1.jpg" width="300" alt="">
+        </div>
+    </div>
+    <div class="">
+        <h1>Quality Sound, User-Friendly Tools</h1>
+        <p>Our user-friendly tools simplify the production of professional-grade audio, making it accessible for everyone.</p>
+    </div>
+    <div class=" mx-5">
+        <img src="./img/img2.jpg" width="300" alt="">
+    </div>
+    <div class=" mx-5">
+        <h1>Tailor Your Audio Presence</h1>
+        <p>Our advanced customization options allow creators to maintain and express their brand identity.</p>
+    </div>
+    <div>
+        <img src="./img/img3.jpg" width="300" alt="">
+    </div>
+    <div class="">
+        <h1>Audio for Beginners to Pros</h1>
+        <p>We cater for all skill levels, offering everything from plug-and-play to account-managedwhite-labeled solutions.</p>
+    </div>
+    <div class="mx-5"></div>
+        <img src="./img/img4.webp" width="300" alt="">
+    </div>
+
+    <div class="">
+        <h1>A Decade of Audio Expertise</h1>
+        <p>We've been dedicated exclusively to audio for over 12 years, positioning us as industry experts.</p>
+    </div>
+    <div>
+        <img src="./img/img5.webp" width="300" alt="">
+    </div>
+
+    <div class="">
+        <h1>Create and Listen Anywhere, Effortlessly</h1>
+        <p>Mixlr is crafted for flexibility and ease of use on the go, ensuring that both creators and listenersenjoy a seamless audio experience, no matter where they are.</p>
+    </div>
+    <div class="mx-5">
+        <img src="./img/img6.jpg" width="300" alt="">
+    </div>
+    
+    <div class=" mx-5">
+        <h1>Your content, your rules</h1>
+        <p>We champion full creative control for audio creators, offering extensive personalization, privacyoptions, and a commitment to ad-free content.</p>
+    </div>
+    <div>
+        <img src="./img/img7.jpg" width="300" alt="">
+    </div>
+    
+    <div class="">
+        <h1>Support That Resonates</h1>
+        <p>First-class support at every step, from setup inquiries to specialized assistance for live events.</p>
+    </div>
+    <div class="mx-5"></div>
+        <img src="./img/img8.jpg" width="300" alt="">
+        
+    </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="text-center">
+        <div class="">
+            <a href="#" class="feature_links text-decoration-none">View all features</a>
+        </div>
+        <div class="my-5">
+            <h3>Broadcast your <br>
+                audio today</h3>
+                <button class="btn btn-danger btn-sm rounded-pill py-2 px-3 fw-bold fs-4">Start free Trial</button>
+        </div>
+        
+    </section>
+    <footer class="d-none d-lg-block d-md-none">
+        <div class="justify-content-center gap-5 ">
+            <div class="mt-5 text-center">
+                <img src="./img/Mixlr.svg" width="100" alt="">
+                <div class="d-flex gap-4 justify-content-center py-5">
+                    <img src="./img/svgexport-14.svg" alt="">
+                    <img src="./img/svgexport-15.svg" alt="">
+                </div>
+            </div>
+            <ul class="list-unstyled d-flex justify-content-center gap-2">
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Pricing</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Blog</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Support</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Careers</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Terms of Use</a></li>
+                <li><a class="text-decoration-none text-dark nav_links" href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="text-center py-4">
+            <p>© Mixlr Ltd 2024 - All rights reserved</p>
+        </div>
+    </footer>
+</body>
+<script src="./bootstrap.js"></script>
+</html>
